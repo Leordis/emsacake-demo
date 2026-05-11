@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
+
             // Simple success message
             const btn = contactForm.querySelector('button');
             const originalText = btn.innerText;
-            
+
             btn.innerText = '¡Enviado con éxito!';
             btn.style.background = '#775a19';
             btn.disabled = true;

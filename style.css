@@ -365,7 +365,7 @@ footer {
   }
 
   .hero-overlay {
-    background: linear-gradient(to bottom, rgba(251, 249, 248, 0.9), rgba(251, 249, 248, 0.8));
+    background: linear-gradient(to bottom, rgba(251, 249, 248, 0.7), rgba(251, 249, 248, 0.4));
   }
 
   .hero-content {
