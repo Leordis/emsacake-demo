@@ -54,6 +54,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
+    // Header scroll effect
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
     document.querySelectorAll('.service-card, .gallery-item, .contact-container').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
